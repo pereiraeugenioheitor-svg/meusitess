@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #142850, #27496d);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #142850;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #27496d;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #27496d;
+    margin: 15px 0 8px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+.informacoes {
+    background-color: #eef3f8;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.hobbies,
+.sonhos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.hobby,
+.sonho {
+    background-color: #eef3f8;
+    padding: 18px;
+    border-radius: 10px;
+    border-left: 4px solid #27496d;
+}
+
+.cantor {
+    background-color: #eef3f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cantor a {
+    color: #142850;
+    text-decoration: none;
+}
+
+.cantor a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #142850;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    main {
+        width: 94%;
+    }
+}
